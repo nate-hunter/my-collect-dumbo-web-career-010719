@@ -4,9 +4,6 @@ def my_collect (collection)
 
 	while i < collection.length
       mod_collection << yield(collection[i])
-      
-      (collection[i]) do |element|
-      mod_collection << element
       i += 1
 		end
 		
